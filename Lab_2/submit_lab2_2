@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=01:00:00
+#PBS -N myjob2
+#PBS -o myjob2.out
+#PBS -e myjob2.err
+#PBS -q workq
+#PBS -A loni_cyen405
+#PBS -m e
+#PBS -M ama067@latech.edu
+work="/home/m3jpuv/lab_2"
+CFILE="lab2_2"
+cd $work
+mpirun -np 8 -machinefile $PBS_NODEFILE ./$CFILE
