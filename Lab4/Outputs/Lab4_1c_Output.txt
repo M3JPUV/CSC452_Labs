@@ -1,0 +1,8 @@
+ON:
+
+{'StartingInstances': [{'CurrentState': {'Code': 0, 'Name': 'pending'}, 'InstanceId': 'i-03e01bdcd04392e01', 'PreviousState': {'Code': 80, 'Name': 'stopped'}}], 'ResponseMetadata': {'RequestId': '1db3a828-8b9e-4deb-baa3-9683d4d1a59c', 'HTTPStatusCode': 200, 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'content-length': '579', 'date': 'Thu, 24 Oct 2019 20:09:36 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+
+
+OFF:
+
+{'StoppingInstances': [{'CurrentState': {'Code': 64, 'Name': 'stopping'}, 'InstanceId': 'i-03e01bdcd04392e01', 'PreviousState': {'Code': 16, 'Name': 'running'}}], 'ResponseMetadata': {'RequestId': '0df1cb23-3145-4073-8990-b8746ede7fc5', 'HTTPStatusCode': 200, 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'content-length': '579', 'date': 'Thu, 24 Oct 2019 20:08:36 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
